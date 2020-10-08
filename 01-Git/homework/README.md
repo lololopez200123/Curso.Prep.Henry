@@ -148,7 +148,7 @@ Esto agregó nuestros cambios al historial. Ahora, para guardar el historial, us
 
 Ahora que guardamos nuestros cambios localmente, vamos a querer compartir esos cambios en Github. Para ello, usaremos "push":
 
-```bash
+```bash 23
   git push
 ```
 
