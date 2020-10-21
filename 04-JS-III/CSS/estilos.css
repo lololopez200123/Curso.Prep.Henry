@@ -1,0 +1,174 @@
+/* variables */
+@negro-custom: #141618;
+
+
+/* fuentes */
+@fuente-principal: "Open Sans", serif;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	text-align: center;
+}
+
+.logo img{
+	max-width:6rem;
+	vertical-align: top;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	transition: all .3s ease;
+}
+
+a:hover{
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-bar-pc{
+	background: white;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	padding: 2rem;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	min-height: 20px;
+	align-items: center;
+	border-bottom: 1px solid gray;
+	text-transform: uppercase;
+}
+
+.menu-bar-pc a{
+	margin: 0px 4px 0px 4px;
+
+}
+
+
+.contenedor{
+	display: inline-block;
+	width: 400px;
+}
+
+.contenedor1{
+   display: inline-block;
+   width: 400px;
+   -webkit-transition: all .8s ease;
+	   -moz-transition: all .8s ease;
+	    -ms-transition: all .8s ease;
+	     -o-transition: all .8s ease;
+	        transition: all .8s ease;
+}
+
+
+.texto{
+width: 50%;
+padding: 3.375rem;
+
+}
+
+.texto h2{
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 2,6rem;
+	margin-bottom: 1.125rem;
+}
+
+.texto p{
+	font-size: 0.9rem;
+	line-height: 1.75rem;
+}
+
+.fotofull{
+	width:100% ;
+	min-height: 15rem;
+	background-size: cover;
+	background-position: center;
+}
+
+.boton{
+	display: inline-block;
+	background: #fff;
+	border-radius: 10px;
+	border: 2px solid #236000;
+	padding:10px 10px;
+	cursor:pointer;
+	color: black;
+	
+}
+
+.boton:hover{
+	color: rgba(0, 0, 0, 0.5);
+	padding:10px 20px 10px 20px;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+
+.fondoRojo{
+	background-color: red;
+}
+
+.main{
+	margin-top: 9rem;
+}
+
+.main .portada{
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.main .portada .col{
+	width: 50%;
+	background-color: @negro-custom;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main .foto{
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+
+}
+
+.izq{
+	background-image: url("../img/comedor.png");
+	background-position: left;
+}
+
+.der{
+	background-image: url("../img/comedor.png");
+	background-position: center;
+	opacity: 0.8;
+}
+
+.overlay{
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	background: fade(@negro-custom,40%)
+	position:relative;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+.overlay:hover{
+ opacity: 1;
+}
+
+
+
