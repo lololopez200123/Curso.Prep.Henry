@@ -51,7 +51,7 @@ Para acceder dinámicamente al último elemento de la matriz, utilizaremos el m�
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', ... ,'Samuel'];
 
 console.log(nombresEstudiantes[nombresEstudiantes.length - 1]);  // 'Samuel'
-```
+```a
 
 ### Asignación
 
